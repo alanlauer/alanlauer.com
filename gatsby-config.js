@@ -7,6 +7,7 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: [
+    "gatsby-plugin-mdx",
     {
       resolve: "gatsby-source-filesystem",
       options: {
