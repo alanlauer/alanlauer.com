@@ -1,11 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-
-const pageStyles = {
-  color: "#232129",
-  padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-};
+import * as styles from "./layout.module.css";
 
 const Layout = ({ pageTitle, children }) => {
   return (
@@ -16,7 +11,7 @@ const Layout = ({ pageTitle, children }) => {
           <li><Link to="/about">About</Link></li>
         </ul>
       </nav>
-      <main style={pageStyles}>
+      <main style={styles.pageStyles}>
         <h1>{pageTitle}</h1>
         {children}
       </main>
