@@ -1,5 +1,15 @@
-.pageStyles {
+html {
+  font-family: -apple-system, Roboto, sans-serif, serif;
+}
+
+.site-title {
+  font-size: 3rem;
+  color: gray;
+  font-weight: 700;
+  margin: 3rem;
+}
+
+.page-styles {
   color: #232129;
   padding: 96px;
-  font-family: -apple-system, Roboto, sans-serif, serif;
 }

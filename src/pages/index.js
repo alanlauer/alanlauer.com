@@ -1,11 +1,12 @@
 import * as React from "react";
-import { Link } from 'gatsby'
+import { Link } from 'gatsby';
 import Layout from "../components/layout";
+import Seo from '../components/seo';
 
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
-            <p>Hi there! I'm Alan. This is the home page. Welcome</p>
+      <p>Hi there! I'm Alan. This is the home page. Welcome</p>
 
       <img
         alt="Gatsby G Logo"
@@ -16,4 +17,4 @@ const IndexPage = () => {
 };
 export default IndexPage;
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => <Seo title="Home Page" />;
