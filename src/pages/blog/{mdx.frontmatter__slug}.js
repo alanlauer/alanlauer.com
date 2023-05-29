@@ -9,7 +9,9 @@ const BlogPost = ({ data, children }) => {
 
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
-      <p>Posted: {data.mdx.frontmatter.date}</p>
+      {
+        data.mdx.frontmatter.date ? <p>Posted: {data.mdx.frontmatter.date}</p> : null
+      }
       <GatsbyImage
         image={heroImage}
         alt={data.mdx.frontmatter.hero_image_alt}
