@@ -1,0 +1,20 @@
+:root {
+  --fnt: sans-serif;
+  --clr-primary: #dcddde;
+  --clr-secondary: #202020;
+  --clr-accent: #7f6df2;
+  --clr-button-primary: #2a2a2a;
+  --clr-button-secondary: #c3bdfa;
+  --clr-background: var(--clr-secondary);
+  --clr-txt: var(--clr-primary);
+}
+
+* {
+  background-color: var(--clr-background);
+  font-family: var(--fnt);
+  color: var(--clr-txt);
+}
+
+a {
+  color: var(--clr-accent);
+}

@@ -1,17 +1,15 @@
 html {
-  font-family: -apple-system, Roboto, sans-serif, serif;
+  /* font-family: -apple-system, Roboto, sans-serif, serif; */
   margin: 0 3em;
 }
 
 .site-title {
   font-size: 3rem;
-  color: gray;
   font-weight: 700;
 }
 
 .page-styles {
-  color: #232129;
-  padding: 96px;
+  padding: 16px 0px;
 }
 
 .nav-links {
@@ -25,5 +23,5 @@ html {
 }
 
 .nav-link-text {
-  color: black;
+  /* color: black; */
 }
