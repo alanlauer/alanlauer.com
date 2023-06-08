@@ -8,28 +8,30 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
+    "develop": "gatsby develop -H 0.0.0.0",
+    "start": "gatsby develop -H 0.0.0.0",
     "build": "gatsby build",
-    "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "serve": "gatsby serve",
+    "test": "echo test",
+    "start-prod": "npm run clean && npm run build && npm run serve",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
-    "@mdx-js/react": "^2.3.0",
-    "gatsby": "^5.6.1",
-    "gatsby-plugin-image": "^3.7.0",
-    "gatsby-plugin-mdx": "^5.7.0",
-    "gatsby-plugin-sharp": "^5.7.0",
-    "gatsby-source-filesystem": "^5.7.0",
-    "gatsby-transformer-sharp": "^5.7.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "gatsby": "4.6.0",
+    "gatsby-plugin-google-gtag": "^4.11.0",
+    "gatsby-plugin-manifest": "^4.11.0",
+    "gatsby-plugin-robots-txt": "^1.7.0",
+    "gatsby-plugin-sitemap": "^5.11.1",
+    "gatsby-source-filesystem": "^4.11.1",
+    "gatsby-theme-primer-wiki": "^2.0.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
+  },
+  "engines": {
+    "node": "<18.0.0"
   }
 }
