@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://alanlauer.github.io/alanlauer.com//sitemap/sitemap-index.xml
+Host: https://alanlauer.github.io
