@@ -14,6 +14,7 @@
     "clean": "gatsby clean",
     "serve": "gatsby serve",
     "test": "echo test",
+    "start-prod": "npm run clean && npm run build && npm run serve",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
