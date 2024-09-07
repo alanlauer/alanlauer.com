@@ -1,4 +1,7 @@
-# Courses That I Have Access To
+---
+title: "Learning and Certifications"
+slug: "learning-and-certifications"
+---
 
 _(loosely from used most/best to used least/worst)_
 
