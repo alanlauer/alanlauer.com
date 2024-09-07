@@ -55,3 +55,25 @@
 
     - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
+## Source Control procedure
+
+1. `git checkout -b new-branch-name`
+1. On github.com, create a pull request for `DRAFT:new-branch-name`.
+1. Make changes.
+1. Save changes.
+1. Use VSCode source control to stage a logical group of changes.
+1. [Compose a concise commit message](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/) following this format: `<type>[optional scope]: <description>`
+1. Commit. Repeat for all changes.
+1. `git push origin new-branch-name`
+1. On github.com, open the existing pull request.
+1. On github.com, review your changes.
+1. On github.com, merge your pull request to `master`.
+1. On github.com, delete `new-branch-name`.
+
+## Deployment Sequence
+
+After you've merged your changes to master, follow this procedure to deploy to production from local:
+
+1. `git checkout master`
+1. `git rebase`
+2. `npm run deploy`
