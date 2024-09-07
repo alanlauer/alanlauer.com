@@ -42,7 +42,7 @@ module.exports = {
             url: "https://www.instagram.com/247alan/",
           },
         ],
-        editUrl: "https://github.com/alanlauer/alanlauer.com/tree/master/",
+        editUrl: "https://github.com/alanlauer/alanlauer.com/tree/master/content/",
       },
     },
     {
